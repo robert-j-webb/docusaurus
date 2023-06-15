@@ -45,7 +45,7 @@ export default function preset(
   } = opts;
 
   const themes: PluginConfig[] = [];
-  themes.push(makePluginConfig('@docusaurus/theme-classic', theme));
+  themes.push(makePluginConfig('@robertwebbmodular/theme-classic', theme));
   if (algolia) {
     themes.push(require.resolve('@docusaurus/theme-search-algolia'));
   }

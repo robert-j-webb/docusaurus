@@ -7,7 +7,7 @@
 
 import defaultPrismTheme from 'prism-react-renderer/themes/palenight';
 import {Joi, URISchema} from '@docusaurus/utils-validation';
-import type {Options, PluginOptions} from '@docusaurus/theme-classic';
+import type {Options, PluginOptions} from '@robertwebbmodular/theme-classic';
 import type {ThemeConfig} from '@docusaurus/theme-common';
 import type {
   ThemeConfigValidationContext,

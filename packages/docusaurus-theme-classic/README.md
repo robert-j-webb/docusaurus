@@ -7,9 +7,9 @@ The classic theme for Docusaurus.
 Add `docusaurus/theme-classic` to your package:
 
 ```bash
-npm i @docusaurus/theme-classic
+npm i @robertwebbmodular/theme-classic
 # or
-yarn add @docusaurus/theme-classic
+yarn add @robertwebbmodular/theme-classic
 ```
 
 Modify your `docusaurus.config.js`:
@@ -17,7 +17,7 @@ Modify your `docusaurus.config.js`:
 ```diff
 module.exports = {
   ...
-+ themes: ['@docusaurus/theme-classic'],
++ themes: ['@robertwebbmodular/theme-classic'],
   ...
 }
 ```
@@ -25,7 +25,7 @@ module.exports = {
 ## Swizzling components
 
 ```bash
-$ npm swizzle @docusaurus/theme-classic [component name]
+$ npm swizzle @robertwebbmodular/theme-classic [component name]
 ```
 
 All components used by this theme can be found [here](https://github.com/facebook/docusaurus/tree/main/packages/docusaurus-theme-classic/src/theme)

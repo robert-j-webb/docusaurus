@@ -160,7 +160,7 @@ npm access ls-packages
   "@docusaurus/plugin-content-pages": "read-write",
   "@docusaurus/preset-classic": "read-write",
   "@docusaurus/theme-search-algolia": "read-write",
-  "@docusaurus/theme-classic": "read-write",
+  "@robertwebbmodular/theme-classic": "read-write",
   "@docusaurus/theme-live-codeblock": "read-write",
   "@docusaurus/plugin-google-analytics": "read-write",
   "@docusaurus/plugin-google-gtag": "read-write",

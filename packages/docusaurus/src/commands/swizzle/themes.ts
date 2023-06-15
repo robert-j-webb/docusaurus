@@ -48,7 +48,7 @@ export function getThemeNames(plugins: SwizzlePlugin[]): string[] {
   return _.orderBy(
     themeNames,
     [
-      (t) => t === '@docusaurus/theme-classic',
+      (t) => t === '@robertwebbmodular/theme-classic',
       (t) => t.includes('@docusaurus/theme'),
       (t) => t.includes('@docusaurus'),
     ],
@@ -73,7 +73,7 @@ function handleInvalidThemeName({
     return differentCaseMatch;
   }
 
-  // TODO recover from short theme-names here: "classic" => "@docusaurus/theme-classic"
+  // TODO recover from short theme-names here: "classic" => "@robertwebbmodular/theme-classic"
 
   // No recovery value is possible: print error
   const suggestion = themeNames.find((name) => leven(name, themeNameParam) < 4);

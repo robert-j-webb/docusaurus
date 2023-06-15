@@ -13,7 +13,7 @@ import {getTranslationFiles, translateThemeConfig} from './translations';
 import type {LoadContext, Plugin} from '@docusaurus/types';
 import type {ThemeConfig} from '@docusaurus/theme-common';
 import type {Plugin as PostCssPlugin} from 'postcss';
-import type {PluginOptions} from '@docusaurus/theme-classic';
+import type {PluginOptions} from '@robertwebbmodular/theme-classic';
 import type webpack from 'webpack';
 
 const requireFromDocusaurusCore = createRequire(

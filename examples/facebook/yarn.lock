@@ -1457,7 +1457,7 @@
     "@docusaurus/plugin-google-analytics" "2.0.0-rc.1"
     "@docusaurus/plugin-google-gtag" "2.0.0-rc.1"
     "@docusaurus/plugin-sitemap" "2.0.0-rc.1"
-    "@docusaurus/theme-classic" "2.0.0-rc.1"
+    "@robertwebbmodular/theme-classic" "2.0.0-rc.1"
     "@docusaurus/theme-common" "2.0.0-rc.1"
     "@docusaurus/theme-search-algolia" "2.0.0-rc.1"
     "@docusaurus/types" "2.0.0-rc.1"
@@ -1470,9 +1470,9 @@
     "@types/react" "*"
     prop-types "^15.6.2"
 
-"@docusaurus/theme-classic@2.0.0-rc.1":
+"@robertwebbmodular/theme-classic@2.0.0-rc.1":
   version "2.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@docusaurus/theme-classic/-/theme-classic-2.0.0-rc.1.tgz#4ab30745e6b03b0f277837debae786a0a83aee6a"
+  resolved "https://registry.yarnpkg.com/@robertwebbmodular/theme-classic/-/theme-classic-2.0.0-rc.1.tgz#4ab30745e6b03b0f277837debae786a0a83aee6a"
   integrity sha512-qNiz7ieeq3AC+V8TbW6S63pWLJph1CbzWDDPTqxDLHgA8VQaNaSmJM8S92pH+yKALRb9u14ogjjYYc75Nj2JmQ==
   dependencies:
     "@docusaurus/core" "2.0.0-rc.1"

@@ -40,6 +40,19 @@ export type GlobalDoc = {
   sidebar: string | undefined;
 };
 
+export type GlobalVersionWeirdSidebar = {
+  name: string;
+  label: string;
+  isLast: boolean;
+  path: string;
+  /** The doc with `slug: /`, or first doc in first sidebar */
+  mainDocId: string;
+  docs: GlobalDoc[];
+  /** Unversioned IDs. In development, this list is empty. */
+  draftIds: string[];
+  sidebars?: unknown;
+};
+
 export type GlobalVersion = {
   name: string;
   label: string;

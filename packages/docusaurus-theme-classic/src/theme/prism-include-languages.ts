@@ -29,5 +29,6 @@ export default function prismIncludeLanguages(
     require(`prismjs/components/prism-${lang}`);
   });
 
-  delete (globalThis as Global & {Prism?: typeof PrismNamespace}).Prism;
+  delete (globalThis as unknown as Global & {Prism?: typeof PrismNamespace})
+    .Prism;
 }

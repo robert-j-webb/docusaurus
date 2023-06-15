@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/// <reference types="@docusaurus/theme-classic" />
+/// <reference types="@robertwebbmodular/theme-classic" />
 /// <reference types="@docusaurus/module-type-aliases" />
 
 declare module '@theme-init/CodeBlock' {

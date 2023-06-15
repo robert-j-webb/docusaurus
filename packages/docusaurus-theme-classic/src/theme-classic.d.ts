@@ -20,7 +20,7 @@
 // our theme shadowing—we probably need the user to specify multiple theme paths
 // in their tsconfig.
 
-declare module '@docusaurus/theme-classic' {
+declare module '@robertwebbmodular/theme-classic' {
   import type {LoadContext, Plugin, PluginModule} from '@docusaurus/types';
 
   export type PluginOptions = {

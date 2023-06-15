@@ -5,7 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import _ from 'lodash';
 import {getMainDocId} from './docs';
 import type {FullVersion} from './types';
 import type {
@@ -13,11 +12,9 @@ import type {
   DocMetadata,
 } from '@docusaurus/plugin-content-docs';
 import type {
-  GlobalVersion,
-  GlobalSidebar,
   GlobalDoc,
+  GlobalVersionWeirdSidebar,
 } from '@docusaurus/plugin-content-docs/client';
-import type {Sidebars} from './sidebars/types';
 
 function toGlobalDataDoc(doc: DocMetadata): GlobalDoc {
   return {
@@ -37,31 +34,9 @@ function toGlobalDataGeneratedIndex(
   };
 }
 
-function toGlobalSidebars(
-  sidebars: Sidebars,
+export function toGlobalDataVersion(
   version: FullVersion,
-): {[sidebarId: string]: GlobalSidebar} {
-  return _.mapValues(sidebars, (sidebar, sidebarId) => {
-    const firstLink = version.sidebarsUtils.getFirstLink(sidebarId);
-    if (!firstLink) {
-      return {};
-    }
-    return {
-      link: {
-        path:
-          firstLink.type === 'generated-index'
-            ? firstLink.permalink
-            : version.docs.find(
-                (doc) =>
-                  doc.id === firstLink.id || doc.unversionedId === firstLink.id,
-              )!.permalink,
-        label: firstLink.label,
-      },
-    };
-  });
-}
-
-export function toGlobalDataVersion(version: FullVersion): GlobalVersion {
+): GlobalVersionWeirdSidebar {
   return {
     name: version.versionName,
     label: version.label,
@@ -72,6 +47,6 @@ export function toGlobalDataVersion(version: FullVersion): GlobalVersion {
       .map(toGlobalDataDoc)
       .concat(version.categoryGeneratedIndices.map(toGlobalDataGeneratedIndex)),
     draftIds: version.drafts.map((doc) => doc.unversionedId),
-    sidebars: toGlobalSidebars(version.sidebars, version),
+    sidebars: version.sidebars,
   };
 }

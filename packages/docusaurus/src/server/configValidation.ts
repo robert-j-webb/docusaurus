@@ -90,7 +90,7 @@ function createPluginSchema(theme: boolean) {
             ? `Example valid theme config:
 {
   themes: [
-    ["@docusaurus/theme-classic",options],
+    ["@robertwebbmodular/theme-classic",options],
     "./myTheme",
     ["./myTheme",{someOption: 42}],
     function myTheme() { },
