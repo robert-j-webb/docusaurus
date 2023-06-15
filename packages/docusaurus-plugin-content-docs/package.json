@@ -1,6 +1,6 @@
 {
   "name": "@robertwebbmodular/plugin-content-docs",
-  "version": "2.4.4",
+  "version": "0.0.0-5235",
   "description": "Docs plugin for Docusaurus.",
   "main": "lib/index.js",
   "sideEffects": false,
@@ -35,7 +35,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@docusaurus/core": "2.4.1",
+    "@docusaurus/core": "0.0.0-5235",
     "@docusaurus/logger": "2.4.1",
     "@docusaurus/mdx-loader": "2.4.1",
     "@docusaurus/module-type-aliases": "2.4.1",

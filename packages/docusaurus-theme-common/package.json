@@ -1,6 +1,6 @@
 {
   "name": "@docusaurus/theme-common",
-  "version": "2.4.1",
+  "version": "0.0.0-5235",
   "description": "Common code for Docusaurus themes.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -32,9 +32,9 @@
   "dependencies": {
     "@docusaurus/mdx-loader": "2.4.1",
     "@docusaurus/module-type-aliases": "2.4.1",
-    "@docusaurus/plugin-content-blog": "2.4.1",
+    "@docusaurus/plugin-content-blog": "0.0.0-5235",
     "@docusaurus/plugin-content-docs": "2.4.1",
-    "@docusaurus/plugin-content-pages": "2.4.1",
+    "@docusaurus/plugin-content-pages": "0.0.0-5235",
     "@docusaurus/utils": "2.4.1",
     "@docusaurus/utils-common": "2.4.1",
     "@types/history": "^4.7.11",
@@ -48,7 +48,7 @@
     "utility-types": "^3.10.0"
   },
   "devDependencies": {
-    "@docusaurus/core": "2.4.1",
+    "@docusaurus/core": "0.0.0-5235",
     "@docusaurus/types": "2.4.1",
     "fs-extra": "^10.1.0",
     "lodash": "^4.17.21"

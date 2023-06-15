@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-2-classic-typescript-template",
-  "version": "2.4.1",
+  "version": "0.0.0-5235",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -15,7 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.1",
+    "@docusaurus/core": "0.0.0-5235",
     "@docusaurus/preset-classic": "2.4.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",

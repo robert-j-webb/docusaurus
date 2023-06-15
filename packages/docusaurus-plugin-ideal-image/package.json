@@ -1,6 +1,6 @@
 {
   "name": "@docusaurus/plugin-ideal-image",
-  "version": "2.4.1",
+  "version": "0.0.0-5235",
   "description": "Docusaurus Plugin to generate an almost ideal image (responsive, lazy-loading, and low quality placeholder).",
   "main": "lib/index.js",
   "types": "src/plugin-ideal-image.d.ts",
@@ -20,10 +20,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@docusaurus/core": "2.4.1",
+    "@docusaurus/core": "0.0.0-5235",
     "@docusaurus/lqip-loader": "2.4.1",
     "@docusaurus/responsive-loader": "^1.7.0",
-    "@docusaurus/theme-translations": "2.4.1",
+    "@docusaurus/theme-translations": "0.0.0-5235",
     "@docusaurus/types": "2.4.1",
     "@docusaurus/utils-validation": "2.4.1",
     "@endiliey/react-ideal-image": "^0.0.11",
